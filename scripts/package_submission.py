@@ -46,12 +46,18 @@ EXCLUDED_NAMES = {
     "data_index",
     "scratch",
     "Capstone_Project_Dataset_FTTT_2026",
+    "voiceops.egg-info",
 }
 
 
 def should_include(path: Path) -> bool:
     for part in path.parts:
-        if part in EXCLUDED_NAMES or part.endswith(".pyc") or part.endswith(".zip"):
+        if (
+            part in EXCLUDED_NAMES
+            or part.endswith(".pyc")
+            or part.endswith(".zip")
+            or part.endswith(".egg-info")
+        ):
             return False
     return True
 

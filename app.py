@@ -434,7 +434,7 @@ def load_evaluation_summary() -> str:
 # GRADIO APPLICATION LAYOUT
 # ==============================================================================
 def create_app() -> gr.Blocks:
-    with gr.Blocks(css=CUSTOM_CSS, title="VoiceOps 2026 - ZentroMart Voice Support Agent") as demo:
+    with gr.Blocks(title="VoiceOps 2026 - ZentroMart Voice Support Agent") as demo:
         # Header
         gr.HTML("""
         <div class="brand-header">
@@ -463,9 +463,7 @@ def create_app() -> gr.Blocks:
                 with gr.Row():
                     with gr.Column(scale=7):
                         chatbot = gr.Chatbot(
-                            type="messages",
                             height=520,
-                            show_copy_button=True,
                             label="ZentroMart Support Conversation",
                         )
                         with gr.Row():
@@ -702,4 +700,4 @@ def create_app() -> gr.Blocks:
 
 if __name__ == "__main__":
     app = create_app()
-    app.launch(server_name="0.0.0.0", server_port=7860, share=False)
+    app.launch(server_name="0.0.0.0", server_port=7860, share=False, css=CUSTOM_CSS)

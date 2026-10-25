@@ -6,6 +6,8 @@
 [![Voice](https://img.shields.io/badge/Speech-Gnani.ai%20Prisma%20%26%20Timbre-10b981.svg)](#)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](#)
 
+**Public GitHub Repository**: [https://github.com/saivardhankundala2005-sys/zentromart-voiceops.git](https://github.com/saivardhankundala2005-sys/zentromart-voiceops.git)
+
 Production-grade, omnichannel conversational AI customer support platform built for **ZentroMart** (fictional Indian groceries and electronics retailer). Powered by a unified Python agent engine supporting:
 1. **Interactive Gradio SaaS Web Application** (`app.py`)
 2. **Batch Audio CLI Runner** (`run.py` & `run.sh`)

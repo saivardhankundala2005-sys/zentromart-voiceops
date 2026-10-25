@@ -1,0 +1,2 @@
+audio_file,conversation_id,turn_id,heard_transcript,reply_text,decision,retrieved_section_ids,ticket_id,total_ms,status
+conv01_turn1.wav,conv01,1,,"Sorry, I didn't catch that. Could you please say it again?",clarify,,,14241.8,success

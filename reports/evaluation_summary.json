@@ -1,0 +1,37 @@
+{
+  "step1": {
+    "total_questions": 5,
+    "must_include_accuracy": 20.0,
+    "must_not_include_accuracy": 100.0,
+    "decision_accuracy": 100.0,
+    "all_rules_accuracy": 20.0,
+    "avg_latency_ms": 919.4
+  },
+  "step2_clean": {
+    "total_questions": 5,
+    "must_include_accuracy": 80.0,
+    "must_not_include_accuracy": 100.0,
+    "decision_accuracy": 100.0,
+    "all_rules_accuracy": 80.0,
+    "retrieval_recall": 90.0,
+    "hard_negative_hit_rate": 0.0,
+    "avg_latency_ms": 2098.3
+  },
+  "step2_asr": {
+    "total_questions": 5,
+    "must_include_accuracy": 80.0,
+    "must_not_include_accuracy": 100.0,
+    "decision_accuracy": 100.0,
+    "all_rules_accuracy": 80.0,
+    "avg_latency_ms": 3470.2
+  },
+  "step3": {
+    "total_turns": 22,
+    "must_include_accuracy": 100.0,
+    "must_not_include_accuracy": 100.0,
+    "decision_accuracy": 95.45,
+    "tool_call_accuracy": 100.0,
+    "all_rules_accuracy": 95.45,
+    "avg_latency_ms": 3162.6
+  }
+}

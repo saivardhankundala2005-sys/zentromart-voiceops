@@ -1,0 +1,15 @@
+# VoiceOps 2026 Dependencies
+google-genai>=1.0.0
+gnani-vachana>=0.8.2
+chromadb>=0.5.0
+rank-bm25>=0.2.2
+pandas>=2.2.0
+numpy>=1.26.0
+pydantic>=2.7.0
+tenacity>=8.3.0
+python-dotenv>=1.0.1
+gradio>=4.30.0
+pytest>=8.0.0
+pydub>=0.25.1
+requests>=2.31.0
+websockets>=12.0

@@ -1,0 +1,22 @@
+{
+  "audio_file": "conv01_turn1.wav",
+  "conversation_id": "conv01",
+  "turn_id": 1,
+  "heard_transcript": "",
+  "reply_text": "Sorry, I didn't catch that. Could you please say it again?",
+  "spoken_text": "Sorry, I didn't catch that. Could you please say it again?",
+  "reply_audio_file": "conv01_turn1_reply.wav",
+  "reply_audio_path": "sample_outputs\\conv01_turn1_reply.wav",
+  "retrieved_section_ids": [],
+  "decision": "clarify",
+  "tool_calls": [],
+  "ticket_id": null,
+  "timings": {
+    "stt_ms": 8394.0,
+    "agent_ms": 0.0,
+    "tts_ms": 5847.6,
+    "total_ms": 14241.8
+  },
+  "success": true,
+  "error": null
+}
